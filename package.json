@@ -1,17 +1,18 @@
 {
-  "name": "in-class-exercise-2",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"tsc",
-    "start":"tsc && node ./build/app.js"
+    "build": "tsc",
+    "start": "tsc && node ./build/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.0"
   },
   "devDependencies": {
